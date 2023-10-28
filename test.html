@@ -214,12 +214,14 @@
     <script>
     function toggleNav() {
         var navLinks = document.getElementById("nav-links");
-        if (navLinks.style.display === "block") {
+        if (navLinks.style.display === "block" || navLinks.style.display === "") {
             navLinks.style.display = "none";
-        } else {
+        } 
+        else {
             navLinks.style.display = "block";
         }
     }
+
     </script>
 
 </body>
